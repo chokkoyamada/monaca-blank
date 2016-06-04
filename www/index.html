@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type='text/javascript'>
+        window.onload = funtion () {
+            var button1 = document.getElementById('btn1');
+            button1.addEventListener('click', function() {
+                console.log("btn1 クリック");
+            }, false);
+        }
+    </script>
+</head>
+<body>
+<div class="cls2">
+    <p class="cls3">段落</p>
+	<p class="cls3">段落</p>
+	<p class="cls3">段落</p>
+	<p class="btn1">段落</p>
+</div>
+</body>
+</html>
